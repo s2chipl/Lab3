@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+.clear{clear: both;}
+body{
+    background-color: #ededef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #661911;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header ul{
+    list-style: none;
+    line-height: 40px;
+    float: left;
+    width: 60%;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    color: #b73021;
+    padding: 0px 10px;
+}
+.logo{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+header p{
+    float: right;
+    width: 30%;
+    line-height: 40px;
+    padding-right: 10px;
+    text-align: right;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url(img/pic8.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 3px;
+}
+.banner h1{
+    font-size:45px;
+}
+.button{
+    background-color: #b73021;
+    text-transform: none;
+    padding: 5px 15px;
+    color: #fff;
+    line-height: 30px;
+}
+.card-mid{
+    margin: 0px 5%;
+}
+.card{
+    width: 30%;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+.card h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0px;
+    font-weight: normal;
+    font-size: 18px;
+}
+.card img{
+    height: 250px ;
+}
+.content{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    background-color: #f8f8f8 ;
+}
+.content p{
+    line-height: 20px;
+    padding: 7px 0px;
+}
+.tittle{
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.box-content{
+    padding: 50px 100px;
+}
+.content img{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+#img-spec{
+    width: 100%;
+}
+.box-right{
+    background-color: rgb(4, 93, 96);
+    padding-top: 100px;
+}
+.button-spe{
+    background-color: white;
+    color: gray;
+}
+.box-right h2{
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: -1px;
+}
+.contract{
+    width: 100%;
+    height: 580px;
+    background: url(img/pic2.jpg);
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+#form-contract{
+    width: 50%;
+    min-height: 400px;
+    background-color: rgba(223, 220, 220, 0.659);
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+#form-contract h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: brown;
+    padding: 10px 0px;
+    text-align: center;
+}
+.row-form{
+    width: 100%;
+    margin-top: 5px;
+}
+.row-form-spe{
+    width: 48%;
+    float: left;
+}
+#last-name{
+    margin-left: 2%;
+}
+.value{
+    width: 100%;
+    padding: 5px 0px;
+}
+.row-form textarea{
+    height: 100px;
+}
+.send{
+    background-color: brown;
+    padding: 10px 0px;
+    border: 1px solid brown;
+}
